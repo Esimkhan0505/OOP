@@ -1,0 +1,7 @@
+When to use abstract class:
+Use an abstract class when related classes share common fields and common behavior.
+Example: Dog and Bird are both animals. They share name, age, and sleep(), but each animal has its own makeSound().
+
+When to use interface:
+Use an interface when different unrelated classes need to share one ability or contract.
+Example: Bird and Airplane are not from the same class hierarchy, but both can fly. Therefore, both implement Flyable.
